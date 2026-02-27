@@ -1,5 +1,5 @@
 {
-  "name": "backend_i_e1",
+  "name": "backend_i_e2",
   "version": "1.0.0",
   "type": "module",
   "main": "src/app.js",
@@ -7,8 +7,13 @@
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
- 
-  "homepage": "https://github.com/alexhub8/Backend_I_E1#readme",
+  "homepage": "https://github.com/alexhub8/Backend_I_E2#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-handlebars": "^7.0.7",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
+}
