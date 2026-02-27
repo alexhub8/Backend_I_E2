@@ -1,0 +1,14 @@
+{
+  "name": "backend_i_e1",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+ 
+  "homepage": "https://github.com/alexhub8/Backend_I_E1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
